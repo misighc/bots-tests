@@ -18,7 +18,13 @@ chain = load_chain()
 if 'messages' not in st.session_state:
     # Start with first message from assistant
     st.session_state['messages'] = [{"role": "assistant",
-                                  "content": "Olá, sou o assistente de atividades, em que posso ajudá-la hoje?"}]
+                                  "content": "Olá, sou o assistente de Pedagogas. "
+                                                    "Tenho conhecimentos sobre o Currículo base da educação Infantil e Ensino Fundamental do território catarinense."
+                                                    "Eu posso:"
+                                                    "- Responder a perguntas sobre o conteúdo do documento;"
+                                                    "- Escrever textos com base no conteúdo;"
+                                                    "- Auxiliar na construção de atividades e projetos com base no documento. "
+                                                    "Em que posso ajudá-la hoje?"}]
 
 # Display chat messages from history on app rerun
 # Custom avatar for the assistant, default avatar for user
