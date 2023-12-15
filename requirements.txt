@@ -1,5 +1,4 @@
-altair
-numpy
-pandas
-pydeck
-streamlit
+langchain
+openai
+tiktoken
+faiss-cpu
