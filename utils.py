@@ -33,7 +33,7 @@ answering user questions.
                      )
 
     # Load our local FAISS index as a retriever
-    vector_store = FAISS.load_local("Notion-Bot/faiss_index1", embeddings)
+    vector_store = FAISS.load_local("faiss_index1", embeddings)
     retriever = vector_store.as_retriever(search_kwargs={"k": 3})
 
     # Create memory 'chat_history'
